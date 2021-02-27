@@ -267,9 +267,10 @@ except:
             g.close()
         
         
-        if moves["CoachId"] == 1:
+        elif moves["CoachId"] == 1:
           
           MovesSeparator = []
+        
     
     for moves in dtape["Clips"]:
 
@@ -374,7 +375,7 @@ except:
             g.close()
         
         
-        if moves["CoachId"] == 1:
+        elif moves["CoachId"] == 1:
           
           MovesSeparator = []
     
@@ -428,7 +429,7 @@ except:
             g.close()
             
         
-        if moves["CoachId"] == 2:
+        elif moves["CoachId"] == 2:
 
           Moves2Separator = []
     
@@ -535,7 +536,7 @@ except:
             g.close()
         
         
-        if moves["CoachId"] == 1:
+        elif moves["CoachId"] == 1:
           
           MovesSeparator = []
     
@@ -589,9 +590,9 @@ except:
             g.close()
             
         
-        if moves["CoachId"] == 2:
+        elif moves["CoachId"] == 2:
 
-          MovesSeparator = []
+          Moves2Separator = []
     
     for moves in dtape["Clips"]:
 
@@ -642,7 +643,7 @@ except:
             g.write(json.dumps(MovesSeparator))
             g.close()
         
-        if moves["CoachId"] == 3:
+        elif moves["CoachId"] == 3:
 
           MovesSeparator = []
     
